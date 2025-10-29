@@ -1,0 +1,468 @@
+/* リセットCSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans JP","sans-serif";
+}
+
+
+
+/* ヘッダー */
+#headerTop{
+    width: 100%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2556a0;
+    margin-top: 0%;
+}
+
+#logo{
+    margin-left: 100px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#navi{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+    margin-right: 120px;
+    margin-top: 33px;
+    width: 910px;
+    font-size: 14px;
+}
+
+a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+/* ナビゲーションホバー */
+.menu a:hover{
+    color: grey;
+}
+
+#botan a{
+    color: #2556a0;
+    background-color: #f4dee0;
+    padding: 11px 28px;
+}
+
+#botan a:hover{
+    color: black;
+    background-color: #f4c2e0
+}
+
+
+
+/* メイン画像 */
+#main{width: 100%;
+}
+
+
+
+/* News・Admissionタイトル */
+h2{
+   color: #2556a0;
+   font-size: 72pt;
+   width: fit-content;
+   margin-top: 205px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+/* サブタイトル */
+p{
+  color:#2556a0;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+
+/* NEWS一覧 */
+#news{
+    width: 1171px;
+    height: 166px;
+    display: block;
+    background-color: #f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 102px;
+
+}
+
+#news p{
+    display: inline-block;
+}
+
+
+#date1{
+    color: black;
+    font-size: 12pt;
+    margin-left: 23px;
+    margin-top: 35px;
+}
+
+#jyuyo{
+    font-size: 14pt;
+    color: #a03e3b;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a03e3b;
+    margin-left: 30px;
+}
+
+#naiyo1{
+    color: black;
+    font-size: 16pt;
+    margin-left: 30px;
+}
+
+/* ２行目 */
+#date2{
+    color: black;
+    font-size: 12pt;
+    margin-left: 23px;
+    margin-top: 35px;
+}
+
+#oshirase{
+    font-size: 14pt;
+    color: #857b64;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #857b64;
+    margin-left: 30px;
+}
+
+#naiyo2{
+    color: black;
+    font-size: 16pt;
+    margin-left: 30px;
+}
+
+/* １行目と２行目の仕切線 */
+hr{
+    border-top: 1px;
+    margin-top: 27px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* お知らせの文字ホバー */
+#news p:hover{
+    color: gray;
+}
+
+/* 入試情報 */
+
+#block{
+    width: 578px;
+    height: 417px;
+    display: block ;
+    background-color: #ffffff;
+    box-shadow: -4px 0px 10px 0px #dcdcdc;
+    margin-top: 106px;
+    margin-left: 130px;
+    float: left;
+}
+
+#exambotan{
+    clear: both;
+}
+
+#block p{
+    color: black;
+    font-size: 18px;
+    margin-top: 133px;
+}
+
+#exambotan p a{
+    font-size: 20px;
+    color: #ffffff;
+    width: 272px;
+    height: 60px;
+    background-color: #f4203c;
+    margin-left: 276px;
+    margin-right: 28px;
+    margin-top: 342px;
+    padding: 10px;
+}
+
+#exambotan a:hover{
+    filter: brightness(0.8);
+}
+
+#exambotan img{
+    margin-left: 674px;
+    margin-right: 100px;
+    margin-top: 106px;
+}
+
+#kosya{
+    float: left;
+    margin-top: 106px;
+}
+
+#adomission{
+    overflow: hidden;
+}
+
+/* トピックス*/
+#topics{
+    display: flex;
+    width: 1165px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 102px;
+    list-style: none;
+}
+
+#topics img:hover{
+    filter: brightness(0.8);
+}
+
+
+/* インタビュー */
+#interview{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 102px;
+    list-style: none;
+    margin-left: 100px;  
+    margin-bottom: 100px;
+}
+
+#interview img:hover{
+    filter: brightness(0.8);
+}
+
+/* フッター */
+footer{
+    background-image: url(images/header.png);
+}
+
+#footer{
+    width: 1266px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+#footerlogo{
+    padding-top: 55px;
+}
+
+
+#jyusyo{
+    font-size: 16px;
+    color: #ffffff;
+    padding-top: 80px;
+    margin-left: 47px;
+    margin-right: 479px;
+} 
+
+
+#hosoku{
+    width: 837px;
+    margin-left: 100px;
+    margin-right: 429px;
+    list-style: none;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-size: 16px;
+}
+
+#hosoku li a:hover{
+    color: gray;
+}
+
+#porishi{
+    color: #ffffff;
+    font-size: 12px;
+    width: 1266px;
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 23px;
+}
+
+#hosoku2{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    width: 165px;
+    justify-content: space-between;
+}
+
+#hosoku2 li a:hover{
+    color: gray;
+}
+
+#hosoku3{
+    list-style: none;
+    width: 440px;
+    display: flex;
+    margin-left: 550px;
+    justify-content: space-between;
+}
+
+#hosoku3 li a:hover{
+    color:gray
+}
+
+#sns img{
+    display: block;
+}
+#sns{
+    width: 220px;
+    height: 50px;
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-left: 80px;
+}
+
+#sns a:hover{
+    filter: brightness(0.8);
+}
+
+
+
+
+/* フォームCSS */
+
+h1{
+    color: #2556a0;
+    text-align: center;
+    margin-top: 204px;
+    margin-bottom: 110px;
+}
+
+.bunsyo{
+    color: #7d7d7d;
+}
+
+
+/* お問い合わせ */
+table{
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* 見出し */
+th {
+    width: 200px;
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+/* 必須 */
+.required {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 3px 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+
+/* td */
+td {
+    padding: 10px;
+}
+
+
+/* 入力 */
+.input-field {
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* 小さい入力欄（郵便番号、電話番号用） */
+.input-small {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* 氏名・フリガナ・郵便番号・電話番号の2つ以上の入力欄を縦に並べる */
+.input-container {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+/* ラジオボタン*/
+td label {
+    margin-right: 20px;
+}
+
+
+/* 学部選択 */
+select.input-field {
+    width: 100%;
+    max-width: 350px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* textarea */
+.textarea-field {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* ユーザーが高さを調整可能 */
+}
+
+main{
+    margin-bottom: 100px;
+}
+
+
+
+  
+  

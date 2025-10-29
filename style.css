@@ -1,0 +1,518 @@
+/* リセットCSS */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ 
+#name{
+    font-family: "Kaisei Opti", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+/* メイン */
+#main{
+    width: 100%;
+    height: 818px;
+}
+
+/* メイン画像 */
+#mainimage{
+    width: 100%;
+    height: 823px;
+    position: relative;  
+}
+
+/* タイトルの名前（やまぐち　みほ） */
+#name{
+    position: absolute;
+    top: 180px;
+    left: 680px;
+    writing-mode: vertical-rl;
+    font-size: 58px;
+    color: #00a770;
+}
+
+
+/* タイトル(ポートフォリオ)*/
+h1{
+    position: absolute;
+    top: 380px;
+    left: 630px;
+    font-size: 40px;
+    color: #00a770;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+/* 伸ばし棒を縦にする */
+#nobashi{
+    display: inline-block;
+}
+
+
+
+/* ナビゲーション */
+#navigation{
+    list-style: none;
+    writing-mode: vertical-lr;
+    font-size: 15px;
+    position: absolute;
+    top: 119px;
+    right: 170px;
+}
+
+/* ナビゲーションの行間 */
+#navigation li{
+    padding-right: 25px;
+}
+
+#navigation li a{
+    text-decoration: none;
+    color: #00a770;
+}
+
+/* ナビゲーション　ホバー */
+
+
+#navigation li a:hover { 
+    color: #006242;
+  }
+  
+  
+
+
+/* 作成したものタイトル部分 */
+#sakuseishitamono{
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20%;
+}
+
+
+
+/* WEBサイトの背景 */
+#dodai1{
+    height: 3100px;
+    background-color:#faf8f4;
+    background-image: url(images/tree.png);
+    background-repeat: no-repeat;
+    background-position: right 76px bottom 0px;
+}
+
+
+
+/* 作成したもののタイトル文字 */
+#ddd{
+    font-size: 45px;
+    color: #555113;
+}
+
+#ddd{
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* 作成したものh２の下の飾り画像部分 */
+#sakuseishitamono img{
+    width: 270px;
+}
+
+
+/* WEBSITEのタイトルのブロック */
+#websitetitle{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 58px;
+
+}
+
+/* WEBSITEの文字の横線 */
+#line{
+    object-fit: contain;
+}
+
+h3{
+    font-size: 47px;
+    color: #00a770;
+}
+
+
+/* トリミングサロンのタイトル部分↓ */
+#torimmingright{
+    color: #00a770;
+    margin-left: 180px;
+}
+
+
+#time1{
+    margin-bottom: 73px;
+}
+
+h4{
+    font-size: 21px;
+}
+
+#torimmingtitle p{
+    font-size: 12px;
+    margin-bottom: 120px;
+}
+
+#torimming1{
+    margin-bottom: 50px;
+}
+
+/* トリミングサロンのツール */
+#tool1{
+    margin-bottom: 73px;
+}
+
+/* トリミングボタン部分 */
+#botton1{
+    display: flex;
+    margin-top: 60px;
+}
+
+#botton1 p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+#botton1  a:hover{
+    opacity:0.5;
+	transition:0.3s;
+}
+
+/* 左と右を分けている */
+#sepatate1{
+    display: flex;
+    width: 1157px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 大学サイトについて↓ */
+
+#bbb{
+    margin-top: 137px;
+}
+
+
+
+/* 右側と左側に分けている */
+#separate2{
+    display: flex;
+    margin-top: 150px;
+    width: 1157px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left{
+    margin-left: 100px;
+}
+
+#univercityimage2 img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/* 大学サイトの文章部分 */
+#univercity{
+    font-size: 18px;
+    color: #00a770;
+    width: 450px;
+}
+
+/* ボタンの画像と文字 */
+#botton2{
+    display: flex;
+    margin-top: 100px;
+}
+
+#botton2 p{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+}
+
+#botton2 a :hover{
+    opacity:0.5;
+	transition:0.3s;
+}
+
+/* 大学タイトル */
+#seijyotitle{
+    margin-bottom: 116px;
+}
+
+#seijyotitle p{
+    font-size: 12px;
+}
+
+#time2{
+    margin-bottom: 71px;
+}
+
+#sentence{
+    margin-top: 67px;
+}
+
+
+/* バナー紹介のCSSについて↓*/
+/* バナータイトル */
+#bannertitle{
+    display: flex;
+    margin-top: 100px;
+}
+
+#title2{
+    width: 780px;
+}
+  
+
+#line2{
+    object-fit: contain;
+}
+
+#bannersakuhin{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 1157px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* バナー作品　imgタグをブロック要素にする */
+#banner1{
+    display: flex;
+    width: 1157px;
+    justify-content: space-between;
+}
+
+#banner2{
+    display: flex;
+    width: 1157px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* 私についてCSS↓ */
+#watashinituite h4{
+    font-size: 21px;
+    color: #00a770;
+}
+
+/* 私についてのタイトル */
+#title2{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+/* 私についての文字 */
+#title2 h3{
+    color: #555113;
+    width: 300px;
+    text-align: center;
+}
+
+#eee{
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* 私についての文字の装飾 */
+#ccc{
+    object-fit: cover;
+    width: 300px;
+}
+
+
+#watashinituite p{
+    font-size: 18px;
+    color: #00a770;
+}
+
+#watashinituite{
+    display: flex;
+    width: 1300px;
+    margin-left: auto;
+    margin-left: auto;
+}
+
+
+#righatimages{
+    margin-left: 280px;
+}
+
+#left2{
+    width: 780pxs;
+}
+
+/* 名前 */
+#name2{
+    margin-top: 67px;
+}
+
+/* 経歴 */
+#keireki{
+    margin-top: 47px;
+}
+
+/* 得意なテイスト */
+#teisuto{
+    margin-top: 67px;
+}
+
+/* ビジョン */
+#vision{
+    margin-top: 67px;
+}
+
+
+/* 趣味・好きなこと */
+#syumi{
+    margin-top: 67px;
+}
+
+/* 自分の画像サイズ */
+#miho img{
+    object-fit: contain;
+    width: 70%;
+    margin-top: 80px;
+}
+
+/* まるくんの画像サイズ */
+#maru img{
+    object-fit: contain;
+    width: 70%;
+}
+
+#section2{
+    margin-top: 100px;
+    background-color: #fcf2e5;
+    height: 1300px;
+    background-image: url(images/eda1.png),url(images/eda2.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position:top left,bottom right;
+}
+
+
+/* スキル紹介CSS */
+
+#section3{
+    height: 900px;
+    background: url(images/tree2.png)
+                no-repeat
+                left bottom,
+                url(images/kirakira.png)
+                repeat;
+}
+
+
+/* タイトル */
+#title3{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+/* タイトルの文章の下の装飾 */
+#title3 img{
+    width: 250px;
+}
+
+/* タイトルの文字 */
+#title3 h3{
+    color: #555113;
+}
+
+
+/* スキルのコンテンツの位置*/
+#skill{
+    width: 997px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fff{
+    font-family: "Hina Mincho", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+#skill p{
+    color: #00a770;
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.logo{
+    display: block;
+    display: flex;
+    margin-top: 50px;
+}
+
+
+#skill{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+/* 星のサイズ */
+.star{
+    object-fit: contain;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 15px;
+}
+
+#aaa{
+    width: 407px;
+}
+
+/* フッター */
+#text{
+    text-align: center;
+    color: #ffff;
+    padding-top: 123px;
+}
+
+#text1{
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+
+#text2{
+    font-size: 47px;
+}
+
+#text3{
+    font-size: 27px;
+}
+
+#text4{
+    font-size: 27px;
+}
+
+footer{
+    background-image: url(images/footerimage.png);
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+

@@ -1,0 +1,775 @@
+/* リセットcss */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Zen Maru Gothic", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* ヘッダー*/
+
+/* ヘッダー土台 */
+header{
+    width: 100%;
+    height: 120px;
+    color: #ffff;
+}
+
+#headerlogo{
+    width: 156px;
+    height: 105px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+/* ロゴのホバー */
+a #headerlogo:hover{
+    opacity:0.5;
+	transition:0.3s;
+}
+#header{
+    display: flex;
+}
+
+#tell{
+    color: black;
+    font-size: 32.66px;
+}
+
+#access{
+    display: flex;
+    justify-content: space-between;
+    width: 440px;
+    margin-left: 200px;
+}
+
+/* cotactボタン */
+#contact{
+    color:#ffff;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #395064;
+    display: inline-block;
+    padding: 15px 45px;
+}
+
+/* cotactボタンのホバー */
+#access p :hover{
+    filter: brightness(0.8); 
+}
+
+
+
+
+/* ナビゲーション */
+#navigation{
+    font-size: 13pt;
+    color: black;
+    display: flex;
+    list-style: none;
+    width: 642px;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+#aaa{
+    margin-left: 420px;
+    margin-top: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.nav::before{
+    content: url(images/nikukyu1.png);
+}
+
+/* ナビゲーションのホバー */
+.nav :hover{
+    color: #797979;
+
+}
+
+
+/* メイン */
+
+/* メイン画像 */
+
+#bbb{
+    position: relative;
+    width: 1440px;
+    height: 674px;
+}
+
+#main{
+    width: 100%;
+}
+
+
+/* 理念 */
+
+h1{
+    font-size: 36px;
+    position: absolute;
+    top: 468px;
+    left: 100px;
+    color: #ffff;
+}
+
+
+#section1{
+    background-image: url(common/images/nikukyu2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px right 135px;
+}
+
+
+#rinen{
+    font-size: 39.59px;
+    color: #5c3f27;
+    text-align: center;
+}
+
+#rinenimage{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 39px;
+}
+
+#sentence{
+    font-size: 18pt;
+    width: 1020px;
+    height: 216px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* 理念ボタン */
+#rinenbotan1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#rinenbotan2{
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffff;
+    background-color: #82292c;
+    padding: 16px 50px 16px 100px; 
+    border-radius: 100vh;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 220px;
+    height: 56px; 
+}
+
+#rinenbotan1 p :hover{
+    filter: brightness(0.8);
+}
+
+
+#rinenbotan2::after{
+    content: url('images/rinenbotan.png');
+    display: inline-block;
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    right: 80px; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#rinenbotan::after{
+    content: url(images/rinenbotan.png);
+}
+
+/* サービス */
+#service{
+    text-align: center;
+    font-size: 48px;
+    color: #5c3f27;
+    padding-top: 100px;
+}
+
+#trimming{
+    display: flex;
+    width: 1145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+    align-items: flex-start;
+}
+
+ h3{
+    font-size: 30px;
+    color: #82292c;
+    text-align: center;
+    width: 450px;
+
+}
+
+#content1{
+    width: 450px;
+    margin-left: 100px;
+}
+
+#text{
+    font-size: 18pt;
+    color: #3b3b3b;
+    width: 450px;
+    height: 230px;
+    display: block;
+    margin-top: 30px;
+}
+
+/* トリミングボタン */
+
+.servicebotan{
+    width: 97px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* MOREボタンのホバー */
+.servicebotan p :hover{
+    filter: brightness(0.8);
+}
+
+#servicebotan1{
+    text-decoration: none;
+    background-color: #82292c;
+    padding: 6px 27px;
+    border-radius: 100vh;
+    color: #ffff;
+}
+
+
+#hotel{
+    display: flex;
+    width: 1150px;
+    height: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#content2{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text2{
+    font-size: 18pt;
+    color: #3b3b3b;
+    width: 480px;
+    height: 230px;
+    display: block;
+    margin-top: 30px;
+}
+
+#servicebotan2{
+    text-decoration: none;
+    background-color: #82292c;
+    padding: 6px 27px;
+    border-radius: 100vh;
+    color: #ffff;
+}
+
+#section2{
+    background-image: url(images/backgroungimage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1150px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#ddd{
+    margin-top: 100px;
+}
+
+#section3{
+    margin-top: 150px;
+    background-image: url(common/images/nikukyu2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 600px right 38px;
+}
+
+#jyoho{
+    font-size: 48px;
+    color: #5c3f27;
+    text-align: center;
+}
+
+#eee{
+    display: flex;
+    width: 1167px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#oshirase1{
+    margin-left: 200px;
+}
+
+#fff{
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+#oshirase2{
+    margin-bottom: 18px;
+    text-align: center;
+    width: 300px;
+}
+
+#more{
+    text-decoration: none;
+    background-color: #82292c;
+    padding: 6px 27px;
+    color: #ffff;
+    border-radius: 100vh;
+}
+
+#morebotan{
+    margin-top: 58px;
+    margin-left: 100px;
+    width: 110px;
+}
+
+/* moreボタンのホバー */
+#morebotan p :hover{
+    filter: brightness(0.8);
+}
+
+/* アクセス */
+
+#yoyaku{
+    font-size: 24px;
+}
+
+#denwa{
+    font-size: 40px;
+}
+
+.jyusyo{
+    font-size: 14px;
+}
+
+#hyoji{
+    color: #5c3f27;
+}
+
+#ggg{
+    width: 400px;
+    text-align: center;
+    margin-top: 230px;
+    margin-left: 100px;
+    color: #5c3f27;
+}
+
+#hhh{
+    width: 500px;
+    margin-left: 300px;
+    margin-right: 100px;
+    color: #5c3f27;
+    margin-top: 100px;
+}
+
+/* 「大きな地図で見る」のホバー */
+#map p :hover{
+    color: #797979;
+}
+
+#iii{
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+#jjj{
+    background-image: url(images/background2.png);
+    background-size: cover;
+    width: 100%;
+    height: 490px;
+    background-repeat: no-repeat;
+    
+}
+
+
+/* ギャラリー */
+#gallery{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gallery1{
+    text-align: center;
+    font-size: 48px;
+    color: #5c3f27;
+    padding-bottom: 72px;
+    padding-top: 0px;
+}
+
+#kkk{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+#nnn{
+    background-image: url(common/images/nikukyu2.png);
+    background-repeat: no-repeat;
+    background-position: bottom 150px right 50px;
+    height: 800px;
+}
+
+#gallerybottan{
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffff;
+    background-color: #82292c;
+    margin-top: 50px;
+    padding: 16px 100px 16px 100px; 
+    border-radius: 100vh;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 220px;
+    height: 56px; 
+}
+
+/* ギャラリーボタンのホバー */
+#gallerybottan1 p:hover{
+    filter: brightness(0.8);
+}
+
+
+
+
+#gallerybottan::after{
+    content: url('images/rinenbotan.png');
+    display: inline-block;
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    right: 10%; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#gallerybottan1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    margin-bottom: 100px;
+}
+
+#backgrand{
+    width: 100%;
+    height: 350px;
+    background-color: #82292c;
+}
+
+
+#jyusyo1{
+    color: #ffff;
+    font-size: 14px;
+    display: flex;
+    margin-top: 135px;
+}
+
+#porishi{
+    font-size: 12px;
+    list-style: none;
+    margin-left: 50px;
+    line-height: 30px;
+    margin-top: 140px;
+}
+
+#porishi a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* ポリシーのホバー */
+#porishi li :hover{
+    color: #797979;
+}
+
+#footernavigetion{
+    color: #ffff;
+    font-size: 13pt;
+    list-style: none;
+    margin-left: 30px;
+    display: flex;
+    margin-top: 50px;
+}
+
+#footernavigetion a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+/* フッターのナビゲーションのホバー */
+#footernavigetion li :hover{
+     color: #797979;
+}
+
+#mmm{
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logofooter{
+    margin-top: 50px;
+    margin-left: -80px;
+}
+
+
+/* 2page introduce */
+
+
+/* はじめての方へ */
+/* はじめての方への画像 */
+#hajimete{
+    position: relative;
+    width: 100%;
+    height: 173px;
+}
+
+#hajimetemoji{
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    font-size: 27px;
+}
+
+
+/* コンセプト */
+#concept{
+    text-align: center;
+}
+
+#concept h2{
+    font-size: 48px;
+    color: #5c3f27;
+    margin-bottom: 33px;
+}
+
+#concept1{
+    font-size: 33px;
+}
+
+#concept2{
+    margin-top: 45px;
+    font-size: 14px;
+}
+
+#conceptimage{
+    width: 1162px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 58px;
+}
+
+
+#concept3{
+    background-image: url(introduce/images/nikukyu3.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px left 0px;
+    height: 950px;
+    margin-top: 100px;
+}
+
+/* こだわり */
+#kodawari1{
+    display: flex;
+}
+
+#left1 h3{
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#kodawari2{
+    display: flex;
+}
+
+#kodawari h2{
+    font-size: 48px;
+    color: #5c3f27;
+    text-align: center;
+}
+
+#goodpoint{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 200px;
+}
+/* 医師の写真を小さくしている */
+#ishi{
+    object-fit: contain;
+    width: 600px;
+}
+
+/* シャンプーしている画像を小さくしている */
+#shanpu{
+    object-fit: contain;
+    width: 500px;
+}
+
+#haikei{
+    background-image: url(introduce/images/backgroundimage1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1150px;
+}
+
+#kodawari div h3{
+    font-size: 18px;
+}
+
+#left1{
+    width: 284px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#kodawari2 p{
+    width: 443px;
+    margin-left: 41px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* こだわり２ */
+#kodawari3{
+    display: flex;
+}
+
+#kodawari4{
+    display: flex;
+}
+
+#kodawari4 p{
+    margin-top: 80px;
+}
+
+#goodpoint2{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+#backgrand2{
+    background-image: url(introduce/images/nikukyu3.png);
+    background-repeat: no-repeat;
+    background-position: bottom 0px left 0px;
+    height: 840px;
+}
+
+/* 肉球の画像を小さくしている */
+#nikukyu4{
+    object-fit: contain;
+    width: 600px;
+}
+
+/*こだわり３ */
+#kodawari3 p{
+    margin-left: 100px;
+}
+
+#kodawari3 h3{
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#goodpointimage2{
+    margin-left: 120px;
+}
+
+
+#kodawari5{
+    display: flex;
+}
+
+#kodawari5 h3{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#kodawari5 p{
+    width: 340px;
+}
+
+/* goodpoint3の配置 */
+#goodpoint5{
+    margin-left: 50px;
+}
+
+#kodawari6{
+    display: flex;
+}
+
+#kodawari6 p{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+#backgrand3{
+    background-image: url(introduce/images/backgroundimage2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 1150px;
+}
+
+#goodpoint3{
+    padding-top: 200px;
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* シャンプーの画像を小さく */
+#syanpu-{
+    object-fit: contain;
+    width: 500px;
+    margin-left: 170px;
+}
+
+/* ダックスの画像を小さく */
+#dakkusu{
+    object-fit: contain;
+    width: 600px;
+    margin-left: 160px;
+}
+
+/* ヨークシャテリアの画像を小さく */
+#yo-kusya{
+    object-fit: contain;
+    width: 500px;
+}
+

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資料請求</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <header>
+    <div id="headerTop">
+      <div id="logo"><img src="../images/logo.png" alt="ロゴ"></div>
+       <nav>
+         <ul id="navi">
+            <li class="menu"><a href="./introduction.html">大学紹介</a></li>
+            <li class="menu"><a href="./introduction.html">学部・大学院</a></li>
+            <li class="menu"><a href="./studentlife.html">学生生活</a></li>
+            <li class="menu"><a href="./career.html">キャリア・就職</a></li>
+            <li class="menu"><a href="./exam.html">入試情報・入学情報</a></li>
+            <li id="botan"><a href="">資料請求</a></li>
+         </ul>
+       </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>お問い合わせ</h1>
+    <p id="form1">お申し込みいただいた方へ資料（パンフレット・募集要項等）をお届けいたします。<br>
+       以下の資料請求フォームの項目を入力し、「確認画面へ」ボタンをクリックしてください。
+    </p>
+
+    <table>
+      <!-- 氏名 -->
+      <tr>
+        <th>氏名 <span class="required">必須</span></th>
+        <td class="input-container">
+          <input type="text" placeholder="（例）姓" class="input-field">
+          <input type="text" placeholder="（例）名" class="input-field">
+        </td>
+      </tr>
+
+      <!-- フリガナ -->
+      <tr>
+        <th>フリガナ <span class="required">必須</span></th>
+        <td class="input-container">
+          <input type="text" placeholder="（例）セイ" class="input-field">
+          <input type="text" placeholder="（例）メイ" class="input-field">
+        </td>
+      </tr>
+
+      <!-- 性別 -->
+      <tr>
+        <th>性別 <span class="required">必須</span></th>
+        <td>
+          <label><input type="radio" name="gender" value="male"> 男性</label>
+          <label><input type="radio" name="gender" value="female"> 女性</label>
+          <label><input type="radio" name="gender" value="other"> その他</label>
+        </td>
+      </tr>
+
+      <!-- 出身高校 -->
+      <tr>
+        <th>出身高校 <span class="required">必須</span></th>
+        <td><input type="text" placeholder="（例）〇〇高等学校" class="input-field"></td>
+      </tr>
+
+      <!-- 郵便番号 -->
+      <tr>
+        <th>郵便番号 <span class="required">必須</span></th>
+        <td class="input-container">
+          <input type="text" placeholder="（例）123" class="input-small">
+          <input type="text" placeholder="（例）4567" class="input-small">
+        </td>
+      </tr>
+
+      <!-- 住所 -->
+      <tr>
+        <th>住所 <span class="required">必須</span></th>
+        <td><input type="text" placeholder="（例）東京都江東区〇丁目○番地 イズミマンション203号室" class="input-field"></td>
+      </tr>
+
+      <!-- 電話番号 -->
+      <tr>
+        <th>電話番号 <span class="required">必須</span></th>
+        <td class="input-container">
+          <input type="text" placeholder="（例）080" class="input-small">
+          <input type="text" placeholder="（例）1234" class="input-small">
+          <input type="text" placeholder="（例）5678" class="input-small">
+        </td>
+      </tr>
+
+      <!-- メールアドレス -->
+      <tr>
+        <th>メールアドレス <span class="required">必須</span></th>
+        <td><input type="text" placeholder="（例）XXXXXXXX@gmail.com" class="input-field"></td>
+      </tr>
+
+      <!-- 学部 -->
+<tr>
+  <th>ご興味のある学部 <span class="required">必須</span></th>
+  <td>
+      <select name="gakubu" id="gakubu" class="input-field">
+          <option value="">学部を選んでください</option>
+          <option value="literature">文学部</option>
+          <option value="business">経営学部</option>
+          <option value="economics">経済学部</option>
+          <option value="law">法学部</option>
+          <option value="science">理工学部</option>
+      </select>
+  </td>
+</tr>
+
+<!-- ご要望・ご意見 -->
+<tr>
+  <th>ご要望・ご意見</th>
+  <td>
+      <textarea name="yobo" id="yobo" class="textarea-field" rows="5"></textarea>
+  </td>
+</tr>
+
+    </table>
+  </main>
+</body>
+</html>
