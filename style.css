@@ -40,19 +40,29 @@
 
 
 /* タイトル(ポートフォリオ)*/
-h1{
+
+
+
+.title-portfolio{
     position: absolute;
     top: 380px;
     left: 630px;
     font-size: 40px;
     color: #00a770;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
+
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* 伸ばし棒を縦にする */
-#nobashi{
+.title-portfolio span{
+     line-height: 1;
+}
+
+.title-portfolio .long{
     display: inline-block;
+    transform: rotate(90deg);
+    transform-origin:center;
 }
 
 
